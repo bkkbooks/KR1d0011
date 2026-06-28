@@ -1,0 +1,84 @@
+canonical_identifier: bkk:krp/KR1d0011/v1
+canonical_location: https://kanripo.org/bkk/KR1d0011/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 考工記解
+  date: '2015-08-24 22:07:42.467950'
+  source:
+    repository: kanripo
+    path: KR1d0011
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR1d0011_000.yaml, hash: 'sha256:514df0f2351caed074f3dfbb4ab0055cc2aeb5c35601ea63f2b6b535f11f2462'}
+  - {seq: 1, filename: KR1d0011_001.yaml, hash: 'sha256:0e64adaa96ce960181152a9ad32e5c1c2e91668f311e70573bcf7f4f33ee1e1d'}
+  - {seq: 2, filename: KR1d0011_002.yaml, hash: 'sha256:b83857040af3e106e486e7263f7e9f328bd8b4942af2749071efd41088ace105'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1d0011_000.markers.yaml, hash: 'sha256:27ea04bb6772e817b50aaca68bac1a70c58d9d401a2d6d6d46f733c4a3d46f52'}
+  - {seq: 1, role: markers, filename: assets/KR1d0011_001.markers.yaml, hash: 'sha256:cc3feedb4a5a2067a35cc3aeb51131f12442fc74b38336c4955ab7c9c5c20fe6'}
+  - {seq: 2, role: markers, filename: assets/KR1d0011_002.markers.yaml, hash: 'sha256:b19d27267c8565dd4bcc82bfab09238bc83a3455edf08ea01c2902970283f295'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1d0011_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 352
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1d0011_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 19823
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1d0011_WYG_001-89a
+    span:
+    - body
+    - 19823
+    - 20388
+  label: 卷上釋音
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1d0011_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 21093
+  label: 卷下
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1d0011_WYG_002-105a
+    span:
+    - body
+    - 21093
+    - 21685
+  label: 卷下釋音
+  type: section
+  level: 1
+hash: sha256:023387e9a2473df68406cb88c463080fd924264d6e2af9a2e14e044f1f3ab78c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
